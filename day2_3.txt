@@ -1,0 +1,32 @@
+Task
+There are 3 urns labeled X, Y, and Z.
+
+Urn X contains 4 red balls and 3 black balls.
+Urn Y contains 5 red balls and 4 black balls.
+Urn Z contains 4 red balls and 4 black balls.
+
+Solution
+Experiment: drowning 3 balls from each of the 3 urns.
+Event (A): 1 ball is red and
+Event (B): 1 ball is black
+
+Urn X
+Sample Space (S) = (R,R,R,R,B,B,B) 
+P(A) = 4 / 7
+P(B) = 3 / 7
+
+Urn Y
+Sample Space (S) = (R,R,R,R,R,B,B,B,B)
+P(A) = 5 / 9
+P(B) = 4 / 9
+
+Urn Z
+Sample Space (S) = (R,R,R,R,B,B,B,B)
+P(A) = 4 / 8
+P(B) = 4 / 8
+
+= P(R,R,B) + P(R,B,R) + P(B,R,R)
+= (4/7)x(5/9)x(4/8) + (4/7)x(4/9)x(4/8) + (3/7)x(5/9)x(4/8)
+= 20/126 + 16/126 + 15/126
+= 51/126
+= 17/42
